@@ -67,5 +67,4 @@ jobs:
       - run: | 
           terraform fmt -recursive -write=true
           echo $?
-        id: fmt
       
